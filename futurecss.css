@@ -1,0 +1,22 @@
+html {
+        background-image: url('pics/outerspacegif.gif');
+    background-size: cover;
+    
+    
+    
+    height: 100vh;
+    padding:0;
+    margin:0;
+    
+}
+
+.centerbutton {
+    display: block;
+   margin-top: 10px;
+  margin-bottom: 50px;
+  margin-right: 100px;
+  margin-left: 100px;
+    animation:opac 3s}@keyframes opac{from{opacity:0} to{opacity:1}
+
+}
+

@@ -1,0 +1,59 @@
+html{
+     background-image: url('pics/backgroundgallary.jpg');
+   width: 100%;
+  height: 30vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+    
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 700;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.infobox {
+ display: block;
+   margin-top: 200px;
+  margin-bottom: 250px;
+  margin-right: 100px;
+  margin-left: 500px;
+    
+   
+}
+.nav{
+   
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+   
+}
+.nav li{
+    display:inline;
+   
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
+    text-decoration: none;
+    color: white
+}
